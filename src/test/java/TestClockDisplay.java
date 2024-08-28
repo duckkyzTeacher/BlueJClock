@@ -8,17 +8,23 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Mr. Johnson
- * @version 8/19/2024
+ * @version 8/28/2024
  */
-public class TestTicketMachine
+public class TestClockDisplay
 {
     @Test
-    public void dumbTicketMachineTest(){
-        DumbTicketMachine machine = new DumbTicketMachine(50);
-        assertEquals(50, machine.getPrice());
-        
+    public void ClockDisplayTest(){
+               
     }
     
-    //TODO: Add more tests
+    @Test
+    public void ClockDisplaySecondsTest(){
+
+    }
+
+    @Test
+    public void ClockDisplay12HourTest(){
+
+    }
     
 }
